@@ -23,7 +23,7 @@ connectToMongoDB();
 // Set up Socket.IO server with CORS configuration
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://chat-app-b8oh.onrender.com",
     methods: ["GET", "POST"],
   },
 });
